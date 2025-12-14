@@ -1,0 +1,236 @@
+{
+  "sidebar": {
+    "editFloorplan": "编辑平面图",
+    "design": "设计",
+    "addItems": "添加物品",
+    "myFloorplans": "我的平面图",
+    "settings": "设置",
+    "openSidebar": "打开侧边栏",
+    "collapseSidebar": "收起侧边栏"
+  },
+  "mainControls": {
+    "newPlan": "新建方案",
+    "savePlan": "保存方案",
+    "downloadPlan": "下载方案",
+    "loadPlan": "加载方案"
+  },
+  "floorplanner": {
+    "moveWalls": "移动墙壁",
+    "drawWalls": "绘制墙壁",
+    "deleteWalls": "删除墙壁",
+    "done": "完成",
+    "escHint": "按\"Esc\"键停止绘制墙壁"
+  },
+  "viewToggle": {
+    "3d": "3D",
+    "2d": "2D"
+  },
+  "textureSelector": {
+    "adjustFloor": "调整地板",
+    "adjustWall": "调整墙壁"
+  },
+  "myFloorplans": {
+    "title": "我的保存方案",
+    "noFloorplans": "还没有保存的方案",
+    "saveFirst": "保存您的第一个方案以在此处查看",
+    "loading": "加载中...",
+    "loadButton": "加载",
+    "loadError": "加载平面图失败",
+    "loadNotFound": "平面图不存在",
+    "downloadButton": "下载",
+    "deleteButton": "删除",
+    "deleteConfirm": "确定要删除此平面图吗?",
+    "deleteError": "删除平面图失败",
+    "lastModified": "最后修改",
+    "loadingItem": "正在加载\"{name}\"...",
+    "loadedSuccess": "\"{name}\"加载成功",
+    "downloadingItem": "正在下载\"{name}\"...",
+    "downloadSuccess": "\"{name}\"下载成功",
+    "deletingItem": "正在删除\"{name}\"...",
+    "deleteSuccess": "\"{name}\"删除成功",
+    "savedCount": "已保存 {count} 个平面图"
+  },
+  "settings": {
+    "title": "设置",
+    "dimensionUnit": "尺寸单位",
+    "language": "语言",
+    "languageDescription": "选择您的首选语言",
+    "dimensionUnitDescription": "选择用于在平面图、墙壁标签和物品测量中显示尺寸的单位系统。",
+    "currentSelection": "当前选择",
+    "appliesTo": "此设置全局应用于:",
+    "applies2dFloorplan": "2D平面图墙壁测量",
+    "applies3dDimensions": "3D物品尺寸(宽度、高度、深度)",
+    "appliesAllDimensions": "整个应用程序中的所有尺寸显示",
+    "active": "已启用",
+    "units": {
+      "inch": {
+        "label": "英制 (英尺/英寸)",
+        "description": "英尺和英寸"
+      },
+      "m": {
+        "label": "公制 - 米 (m)",
+        "description": "米"
+      },
+      "cm": {
+        "label": "公制 - 厘米 (cm)",
+        "description": "厘米"
+      },
+      "mm": {
+        "label": "公制 - 毫米 (mm)",
+        "description": "毫米"
+      }
+    },
+    "languages": {
+      "en": "English",
+      "zh": "简体中文",
+      "tw": "繁體中文"
+    }
+  },
+  "items": {
+    "categories": {
+      "all": "全部",
+      "bed": "床",
+      "drawer": "抽屉",
+      "wardrobe": "衣柜",
+      "light": "灯具",
+      "storage": "储物柜",
+      "table": "桌子",
+      "chair": "椅子",
+      "sofa": "沙发",
+      "armchair": "扶手椅",
+      "stool": "凳子",
+      "door": "门",
+      "window": "窗户"
+    },
+    "loadingItem": "正在加载\"{name}\"...",
+    "loadedSuccess": "{name} 加载成功",
+    "loadError": "\"{name}\"加载失败",
+    "bedOne": "床 - 1",
+    "drawerOne": "抽屉 - 1",
+    "drawerTwo": "抽屉 - 2",
+    "drawerThree": "抽屉 - 3",
+    "drawerFour": "抽屉 - 4",
+    "drawerFive": "抽屉 - 5",
+    "drawerSix": "抽屉 - 6",
+    "wardrobeOne": "衣柜 - 1",
+    "wardrobeTwo": "衣柜 - 2",
+    "wardrobeThree": "衣柜 - 3",
+    "wardrobeFour": "衣柜 - 4",
+    "lightOne": "灯具 - 1",
+    "lightTwo": "灯具 - 2",
+    "lightThree": "灯具 - 3",
+    "lightFour": "灯具 - 4",
+    "storageOne": "储物柜 - 1",
+    "storageTwo": "储物柜 - 2",
+    "storageThree": "储物柜 - 3",
+    "storageFour": "储物柜 - 4",
+    "storageFive": "储物柜 - 5",
+    "storageSix": "储物柜 - 6",
+    "storageSeven": "储物柜 - 7",
+    "storageEight": "储物柜 - 8",
+    "storageNine": "储物柜 - 9",
+    "storageTen": "储物柜 - 10",
+    "storageEleven": "储物柜 - 11",
+    "storageTwelve": "储物柜 - 12",
+    "storageThirteen": "储物柜 - 13",
+    "storageFourteen": "储物柜 - 14",
+    "storageFifteen": "储物柜 - 15",
+    "storageSixteen": "储物柜 - 16",
+    "tableOne": "桌子 - 1",
+    "tableTwo": "桌子 - 2",
+    "tableThree": "桌子 - 3",
+    "tableFour": "桌子 - 4",
+    "tableFive": "桌子 - 5",
+    "tableSix": "桌子 - 6",
+    "tableSeven": "桌子 - 7",
+    "tableEight": "桌子 - 8",
+    "tableNine": "桌子 - 9",
+    "tableTen": "桌子 - 10",
+    "tableEleven": "桌子 - 11",
+    "tableTwelve": "桌子 - 12",
+    "tableThirteen": "桌子 - 13",
+    "tableFourteen": "桌子 - 14",
+    "tableFifteen": "桌子 - 15",
+    "chairOne": "椅子 - 1",
+    "chairTwo": "椅子 - 2",
+    "chairThree": "椅子 - 3",
+    "chairFour": "椅子 - 4",
+    "chairFive": "椅子 - 5",
+    "chairSix": "椅子 - 6",
+    "chairSeven": "椅子 - 7",
+    "chairEight": "椅子 - 8",
+    "chairNine": "椅子 - 9",
+    "sofaTen": "沙发 - 10",
+    "sofaEleven": "沙发 - 11",
+    "sofaTwelve": "沙发 - 12",
+    "sofaThirteen": "沙发 - 13",
+    "sofaFourteen": "沙发 - 14",
+    "armchairFifteen": "扶手椅 - 15",
+    "armchairSixteen": "扶手椅 - 16",
+    "armchairSeventeen": "扶手椅 - 17",
+    "armchairEighteen": "扶手椅 - 18",
+    "armchairNineteen": "扶手椅 - 19",
+    "armchairTwenty": "扶手椅 - 20",
+    "stoolTwentyOne": "凳子 - 21",
+    "stoolTwentyTwo": "凳子 - 22",
+    "stoolTwentyThree": "凳子 - 23",
+    "stoolTwentyFour": "凳子 - 24",
+    "stoolTwentyFive": "凳子 - 25",
+    "closedDoor": "关闭的门",
+    "openDoor": "打开的门",
+    "windowOne": "窗户 - 1",
+    "doorOne": "门 - 1",
+    "doorTwo": "门 - 2"
+  },
+  "textures": {
+    "floor": {
+      "lightFineWood": "浅色精细木纹"
+    },
+    "wall": {
+      "marbleTiles": "大理石瓷砖",
+      "wallmapYellow": "黄色墙纸",
+      "lightBrick": "浅色砖墙"
+    }
+  },
+  "contextMenu": {
+    "deleteItem": "删除物品",
+    "adjustSize": "调整尺寸",
+    "width": "宽度",
+    "depth": "深度",
+    "height": "高度",
+    "lockInPlace": "锁定位置",
+    "measurementsIn": "测量单位",
+    "units": {
+      "inches": "英寸",
+      "meters": "米",
+      "centimeters": "厘米",
+      "millimeters": "毫米"
+    }
+  },
+  "saveDialog": {
+    "title": "保存平面图",
+    "description": "为您的平面图输入一个名称。您可以稍后在\"我的平面图\"中找到它。",
+    "nameLabel": "平面图名称",
+    "namePlaceholder": "例如: 客厅设计",
+    "cancel": "取消",
+    "save": "保存",
+    "saving": "正在保存平面图...",
+    "saveSuccess": "平面图保存成功!",
+    "saveError": "保存平面图失败,请重试。",
+    "quotaError": "存储空间已满,请删除一些旧的平面图以腾出空间。",
+    "openSidebar": "打开侧边栏"
+  },
+  "bedSizeInput": {
+    "title": "床的尺寸",
+    "bedDimensions": "床的尺寸",
+    "width": "宽度",
+    "length": "长度",
+    "measurementsIn": "测量单位",
+    "units": {
+      "inches": "英寸",
+      "meters": "米",
+      "centimeters": "厘米",
+      "millimeters": "毫米"
+    }
+  }
+}

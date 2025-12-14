@@ -1,0 +1,80 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build:modern
+        env:
+          NODE_ENV: production
+
+      - name: Move index.html to root and add .nojekyll
+        run: |
+          mv dist/example/index.html dist/index.html
+          rm -rf dist/example
+          touch dist/.nojekyll
+
+      - name: List build output
+        run: |
+          echo "=== Dist directory structure ==="
+          ls -la dist/
+          echo -e "\n=== Assets directory ==="
+          ls -la dist/assets/
+          echo -e "\n=== Check if index.html exists ==="
+          test -f dist/index.html && echo "✓ index.html exists" || echo "✗ index.html missing"
+          echo -e "\n=== Check .nojekyll exists ==="
+          test -f dist/.nojekyll && echo "✓ .nojekyll exists" || echo "✗ .nojekyll missing"
+          echo -e "\n=== Assets file count ==="
+          ls -1 dist/assets/ | wc -l
+          echo -e "\n=== JS and CSS files in assets ==="
+          ls -lh dist/assets/*.js dist/assets/*.css 2>/dev/null || echo "No JS/CSS files found"
+          echo -e "\n=== Total files count ==="
+          find dist -type f | wc -l
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

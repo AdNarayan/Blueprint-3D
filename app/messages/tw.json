@@ -1,0 +1,236 @@
+{
+  "sidebar": {
+    "editFloorplan": "編輯平面圖",
+    "design": "設計",
+    "addItems": "新增物件",
+    "myFloorplans": "我的平面圖",
+    "settings": "設定",
+    "openSidebar": "開啟側邊欄",
+    "collapseSidebar": "收合側邊欄"
+  },
+  "mainControls": {
+    "newPlan": "新增平面圖",
+    "savePlan": "儲存平面圖",
+    "downloadPlan": "下載平面圖",
+    "loadPlan": "載入平面圖"
+  },
+  "floorplanner": {
+    "moveWalls": "移動牆面",
+    "drawWalls": "繪製牆面",
+    "deleteWalls": "刪除牆面",
+    "done": "完成",
+    "escHint": "按「Esc」鍵停止繪製牆面"
+  },
+  "viewToggle": {
+    "3d": "3D",
+    "2d": "2D"
+  },
+  "textureSelector": {
+    "adjustFloor": "調整地板",
+    "adjustWall": "調整牆面"
+  },
+  "myFloorplans": {
+    "title": "我的已儲存平面圖",
+    "noFloorplans": "尚無已儲存的平面圖",
+    "saveFirst": "先儲存你的第一個平面圖即可在此查看",
+    "loading": "載入中...",
+    "loadButton": "載入",
+    "loadError": "載入平面圖失敗",
+    "loadNotFound": "平面圖不存在",
+    "downloadButton": "下載",
+    "deleteButton": "刪除",
+    "deleteConfirm": "確定要刪除此平面圖嗎？",
+    "deleteError": "刪除平面圖失敗",
+    "lastModified": "最後修改時間",
+    "loadingItem": "正在載入「{name}」...",
+    "loadedSuccess": "「{name}」載入成功",
+    "downloadingItem": "正在下載「{name}」...",
+    "downloadSuccess": "「{name}」下載成功",
+    "deletingItem": "正在刪除「{name}」...",
+    "deleteSuccess": "「{name}」刪除成功",
+    "savedCount": "已儲存 {count} 個平面圖"
+  },
+  "settings": {
+    "title": "設定",
+    "dimensionUnit": "尺寸單位",
+    "language": "語言",
+    "languageDescription": "選擇偏好的語言",
+    "dimensionUnitDescription": "選擇用於顯示平面圖、牆面標示與物件尺寸的單位系統。",
+    "currentSelection": "目前選擇",
+    "appliesTo": "此設定將全域套用於：",
+    "applies2dFloorplan": "2D 平面圖牆面尺寸標示",
+    "applies3dDimensions": "3D 物件尺寸（寬、高、深）",
+    "appliesAllDimensions": "所有尺寸顯示",
+    "active": "使用中",
+    "units": {
+      "inch": {
+        "label": "英制（英尺/英吋）",
+        "description": "英尺與英吋"
+      },
+      "m": {
+        "label": "公制 - 公尺（m）",
+        "description": "公尺"
+      },
+      "cm": {
+        "label": "公制 - 公分（cm）",
+        "description": "公分"
+      },
+      "mm": {
+        "label": "公制 - 公釐（mm）",
+        "description": "公釐"
+      }
+    },
+    "languages": {
+      "en": "English",
+      "zh": "簡體中文",
+      "tw": "繁體中文"
+    }
+  },
+  "items": {
+    "categories": {
+      "all": "全部",
+      "bed": "床",
+      "drawer": "抽屜",
+      "wardrobe": "衣櫃",
+      "light": "燈具",
+      "storage": "收納",
+      "table": "桌子",
+      "chair": "椅子",
+      "sofa": "沙發",
+      "armchair": "扶手椅",
+      "stool": "凳子",
+      "door": "門",
+      "window": "窗戶"
+    },
+    "loadingItem": "正在載入「{name}」...",
+    "loadedSuccess": "「{name}」載入成功",
+    "loadError": "「{name}」載入失敗",
+    "bedOne": "床 - 1",
+    "drawerOne": "抽屜 - 1",
+    "drawerTwo": "抽屜 - 2",
+    "drawerThree": "抽屜 - 3",
+    "drawerFour": "抽屜 - 4",
+    "drawerFive": "抽屜 - 5",
+    "drawerSix": "抽屜 - 6",
+    "wardrobeOne": "衣櫃 - 1",
+    "wardrobeTwo": "衣櫃 - 2",
+    "wardrobeThree": "衣櫃 - 3",
+    "wardrobeFour": "衣櫃 - 4",
+    "lightOne": "燈具 - 1",
+    "lightTwo": "燈具 - 2",
+    "lightThree": "燈具 - 3",
+    "lightFour": "燈具 - 4",
+    "storageOne": "收納 - 1",
+    "storageTwo": "收納 - 2",
+    "storageThree": "收納 - 3",
+    "storageFour": "收納 - 4",
+    "storageFive": "收納 - 5",
+    "storageSix": "收納 - 6",
+    "storageSeven": "收納 - 7",
+    "storageEight": "收納 - 8",
+    "storageNine": "收納 - 9",
+    "storageTen": "收納 - 10",
+    "storageEleven": "收納 - 11",
+    "storageTwelve": "收納 - 12",
+    "storageThirteen": "收納 - 13",
+    "storageFourteen": "收納 - 14",
+    "storageFifteen": "收納 - 15",
+    "storageSixteen": "收納 - 16",
+    "tableOne": "桌子 - 1",
+    "tableTwo": "桌子 - 2",
+    "tableThree": "桌子 - 3",
+    "tableFour": "桌子 - 4",
+    "tableFive": "桌子 - 5",
+    "tableSix": "桌子 - 6",
+    "tableSeven": "桌子 - 7",
+    "tableEight": "桌子 - 8",
+    "tableNine": "桌子 - 9",
+    "tableTen": "桌子 - 10",
+    "tableEleven": "桌子 - 11",
+    "tableTwelve": "桌子 - 12",
+    "tableThirteen": "桌子 - 13",
+    "tableFourteen": "桌子 - 14",
+    "tableFifteen": "桌子 - 15",
+    "chairOne": "椅子 - 1",
+    "chairTwo": "椅子 - 2",
+    "chairThree": "椅子 - 3",
+    "chairFour": "椅子 - 4",
+    "chairFive": "椅子 - 5",
+    "chairSix": "椅子 - 6",
+    "chairSeven": "椅子 - 7",
+    "chairEight": "椅子 - 8",
+    "chairNine": "椅子 - 9",
+    "sofaTen": "沙發 - 10",
+    "sofaEleven": "沙發 - 11",
+    "sofaTwelve": "沙發 - 12",
+    "sofaThirteen": "沙發 - 13",
+    "sofaFourteen": "沙發 - 14",
+    "armchairFifteen": "扶手椅 - 15",
+    "armchairSixteen": "扶手椅 - 16",
+    "armchairSeventeen": "扶手椅 - 17",
+    "armchairEighteen": "扶手椅 - 18",
+    "armchairNineteen": "扶手椅 - 19",
+    "armchairTwenty": "扶手椅 - 20",
+    "stoolTwentyOne": "凳子 - 21",
+    "stoolTwentyTwo": "凳子 - 22",
+    "stoolTwentyThree": "凳子 - 23",
+    "stoolTwentyFour": "凳子 - 24",
+    "stoolTwentyFive": "凳子 - 25",
+    "closedDoor": "關門",
+    "openDoor": "開門",
+    "windowOne": "窗戶 - 1",
+    "doorOne": "門 - 1",
+    "doorTwo": "門 - 2"
+  },
+  "textures": {
+    "floor": {
+      "lightFineWood": "淺色細木紋"
+    },
+    "wall": {
+      "marbleTiles": "大理石磚",
+      "wallmapYellow": "黃色牆面圖",
+      "lightBrick": "淺色磚牆"
+    }
+  },
+  "contextMenu": {
+    "deleteItem": "刪除物件",
+    "adjustSize": "調整尺寸",
+    "width": "寬度",
+    "depth": "深度",
+    "height": "高度",
+    "lockInPlace": "鎖定位置",
+    "measurementsIn": "尺寸單位",
+    "units": {
+      "inches": "英吋",
+      "meters": "公尺",
+      "centimeters": "公分",
+      "millimeters": "公釐"
+    }
+  },
+  "saveDialog": {
+    "title": "儲存平面圖",
+    "description": "輸入你的平面圖名稱。之後可在「我的平面圖」中找到它。",
+    "nameLabel": "平面圖名稱",
+    "namePlaceholder": "例如：客廳設計",
+    "cancel": "取消",
+    "save": "儲存",
+    "saving": "正在儲存平面圖...",
+    "saveSuccess": "平面圖儲存成功！",
+    "saveError": "儲存失敗，請再試一次。",
+    "quotaError": "儲存空間已滿，請刪除一些舊平面圖以釋放空間。",
+    "openSidebar": "開啟側邊欄"
+  },
+  "bedSizeInput": {
+    "title": "床的尺寸",
+    "bedDimensions": "床的尺寸",
+    "width": "寬度",
+    "length": "長度",
+    "measurementsIn": "尺寸單位",
+    "units": {
+      "inches": "英吋",
+      "meters": "公尺",
+      "centimeters": "公分",
+      "millimeters": "公釐"
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "sidebar": {
+    "editFloorplan": "Edit Floorplan",
+    "design": "Design",
+    "addItems": "Add Items",
+    "myFloorplans": "My Floorplans",
+    "settings": "Settings",
+    "openSidebar": "Open sidebar",
+    "collapseSidebar": "Collapse sidebar"
+  },
+  "mainControls": {
+    "newPlan": "New Plan",
+    "savePlan": "Save Plan",
+    "downloadPlan": "Download Plan",
+    "loadPlan": "Load Plan"
+  },
+  "floorplanner": {
+    "moveWalls": "Move Walls",
+    "drawWalls": "Draw Walls",
+    "deleteWalls": "Delete Walls",
+    "done": "Done",
+    "escHint": "Press the \"Esc\" key to stop drawing walls"
+  },
+  "viewToggle": {
+    "3d": "3D",
+    "2d": "2D"
+  },
+  "textureSelector": {
+    "adjustFloor": "Adjust Floor",
+    "adjustWall": "Adjust Wall"
+  },
+  "myFloorplans": {
+    "title": "My Saved Floorplans",
+    "noFloorplans": "No saved floorplans yet",
+    "saveFirst": "Save your first floorplan to see it here",
+    "loading": "Loading...",
+    "loadButton": "Load",
+    "loadError": "Failed to load floorplan",
+    "loadNotFound": "Floorplan not found",
+    "downloadButton": "Download",
+    "deleteButton": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this floorplan?",
+    "deleteError": "Failed to delete floorplan",
+    "lastModified": "Last modified",
+    "loadingItem": "Loading \"{name}\"...",
+    "loadedSuccess": "\"{name}\" loaded successfully",
+    "downloadingItem": "Downloading \"{name}\"...",
+    "downloadSuccess": "\"{name}\" download successfully",
+    "deletingItem": "Deleting \"{name}\"...",
+    "deleteSuccess": "\"{name}\" deleted successfully",
+    "savedCount": "{count} saved {count, plural, =1 {floorplan} other {floorplans}}"
+  },
+  "settings": {
+    "title": "Settings",
+    "dimensionUnit": "Dimension Unit",
+    "language": "Language",
+    "languageDescription": "Select your preferred language",
+    "dimensionUnitDescription": "Select the unit system for displaying dimensions in the floorplan, wall labels, and item measurements.",
+    "currentSelection": "Current selection",
+    "appliesTo": "This setting applies globally to:",
+    "applies2dFloorplan": "2D floorplan wall measurements",
+    "applies3dDimensions": "3D item dimensions (width, height, depth)",
+    "appliesAllDimensions": "All dimension displays throughout the application",
+    "active": "Active",
+    "units": {
+      "inch": {
+        "label": "Imperial (ft/in)",
+        "description": "Feet and inches"
+      },
+      "m": {
+        "label": "Metric - Meters (m)",
+        "description": "Meters"
+      },
+      "cm": {
+        "label": "Metric - Centimeters (cm)",
+        "description": "Centimeters"
+      },
+      "mm": {
+        "label": "Metric - Millimeters (mm)",
+        "description": "Millimeters"
+      }
+    },
+    "languages": {
+      "en": "English",
+      "zh": "简体中文",
+      "tw": "繁體中文"
+    }
+  },
+  "items": {
+    "categories": {
+      "all": "All",
+      "bed": "Beds",
+      "drawer": "Drawers",
+      "wardrobe": "Wardrobes",
+      "light": "Lights",
+      "storage": "Storage",
+      "table": "Tables",
+      "chair": "Chairs",
+      "sofa": "Sofas",
+      "armchair": "Armchairs",
+      "stool": "Stools",
+      "door": "Doors",
+      "window": "Windows"
+    },
+    "loadingItem": "Loading \"{name}\"...",
+    "loadedSuccess": "\"{name}\" loaded successfully",
+    "loadError": "Failed to load \"{name}\"",
+    "bedOne": "Bed - 1",
+    "drawerOne": "Drawer - 1",
+    "drawerTwo": "Drawer - 2",
+    "drawerThree": "Drawer - 3",
+    "drawerFour": "Drawer - 4",
+    "drawerFive": "Drawer - 5",
+    "drawerSix": "Drawer - 6",
+    "wardrobeOne": "Wardrobe - 1",
+    "wardrobeTwo": "Wardrobe - 2",
+    "wardrobeThree": "Wardrobe - 3",
+    "wardrobeFour": "Wardrobe - 4",
+    "lightOne": "Light - 1",
+    "lightTwo": "Light - 2",
+    "lightThree": "Light - 3",
+    "lightFour": "Light - 4",
+    "storageOne": "Storage - 1",
+    "storageTwo": "Storage - 2",
+    "storageThree": "Storage - 3",
+    "storageFour": "Storage - 4",
+    "storageFive": "Storage - 5",
+    "storageSix": "Storage - 6",
+    "storageSeven": "Storage - 7",
+    "storageEight": "Storage - 8",
+    "storageNine": "Storage - 9",
+    "storageTen": "Storage - 10",
+    "storageEleven": "Storage - 11",
+    "storageTwelve": "Storage - 12",
+    "storageThirteen": "Storage - 13",
+    "storageFourteen": "Storage - 14",
+    "storageFifteen": "Storage - 15",
+    "storageSixteen": "Storage - 16",
+    "tableOne": "Table - 1",
+    "tableTwo": "Table - 2",
+    "tableThree": "Table - 3",
+    "tableFour": "Table - 4",
+    "tableFive": "Table - 5",
+    "tableSix": "Table - 6",
+    "tableSeven": "Table - 7",
+    "tableEight": "Table - 8",
+    "tableNine": "Table - 9",
+    "tableTen": "Table - 10",
+    "tableEleven": "Table - 11",
+    "tableTwelve": "Table - 12",
+    "tableThirteen": "Table - 13",
+    "tableFourteen": "Table - 14",
+    "tableFifteen": "Table - 15",
+    "chairOne": "Chair - 1",
+    "chairTwo": "Chair - 2",
+    "chairThree": "Chair - 3",
+    "chairFour": "Chair - 4",
+    "chairFive": "Chair - 5",
+    "chairSix": "Chair - 6",
+    "chairSeven": "Chair - 7",
+    "chairEight": "Chair - 8",
+    "chairNine": "Chair - 9",
+    "sofaTen": "Sofa - 10",
+    "sofaEleven": "Sofa - 11",
+    "sofaTwelve": "Sofa - 12",
+    "sofaThirteen": "Sofa - 13",
+    "sofaFourteen": "Sofa - 14",
+    "armchairFifteen": "Armchair - 15",
+    "armchairSixteen": "Armchair - 16",
+    "armchairSeventeen": "Armchair - 17",
+    "armchairEighteen": "Armchair - 18",
+    "armchairNineteen": "Armchair - 19",
+    "armchairTwenty": "Armchair - 20",
+    "stoolTwentyOne": "Stool - 21",
+    "stoolTwentyTwo": "Stool - 22",
+    "stoolTwentyThree": "Stool - 23",
+    "stoolTwentyFour": "Stool - 24",
+    "stoolTwentyFive": "Stool - 25",
+    "closedDoor": "Closed Door",
+    "openDoor": "Open Door",
+    "windowOne": "Window - 1",
+    "doorOne": "Door - 1",
+    "doorTwo": "Door - 2"
+  },
+  "textures": {
+    "floor": {
+      "lightFineWood": "Light Fine Wood"
+    },
+    "wall": {
+      "marbleTiles": "Marble Tiles",
+      "wallmapYellow": "Wallmap Yellow",
+      "lightBrick": "Light Brick"
+    }
+  },
+  "contextMenu": {
+    "deleteItem": "Delete Item",
+    "adjustSize": "Adjust Size",
+    "width": "Width",
+    "depth": "Depth",
+    "height": "Height",
+    "lockInPlace": "Lock in place",
+    "measurementsIn": "Measurements in",
+    "units": {
+      "inches": "inches",
+      "meters": "meters",
+      "centimeters": "centimeters",
+      "millimeters": "millimeters"
+    }
+  },
+  "saveDialog": {
+    "title": "Save Floorplan",
+    "description": "Enter a name for your floorplan. You can find it later in 'My Floorplans'.",
+    "nameLabel": "Floorplan Name",
+    "namePlaceholder": "e.g., Living Room Design",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving floorplan...",
+    "saveSuccess": "Floorplan saved successfully!",
+    "saveError": "Failed to save floorplan. Please try again.",
+    "quotaError": "Storage is full. Please delete some old floorplans to make space.",
+    "openSidebar": "Open sidebar"
+  },
+  "bedSizeInput": {
+    "title": "Bed Size",
+    "bedDimensions": "Bed Dimensions",
+    "width": "Width",
+    "length": "Length",
+    "measurementsIn": "Measurements in",
+    "units": {
+      "inches": "inches",
+      "meters": "meters",
+      "centimeters": "centimeters",
+      "millimeters": "millimeters"
+    }
+  }
+}
